@@ -1,1 +1,1 @@
-export { postRegister } from "./api";
+export { postRegister, postLogin, getAuth } from "./api";
