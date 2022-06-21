@@ -7,12 +7,12 @@ export const Navbar = () => {
     <StyledNavbar>
       <Containers.main>
         <img src={Logo} alt="Logo" />
-        <div className="navbar__header">MERN CLOUD</div>
-        <div className="navbar__login">
+        <div className="header">MERN CLOUD</div>
+        <div className="login">
           <NavLink to="/login">Войти</NavLink>
         </div>
-        <div className="navbar__registration">
-          <NavLink to="/registration"></NavLink>
+        <div className="registration">
+          <NavLink to="/registration">Регистрация</NavLink>
         </div>
       </Containers.main>
     </StyledNavbar>
