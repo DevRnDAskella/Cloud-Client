@@ -2,7 +2,10 @@ import { postRegister, postLogin, getAuth } from "../../../api";
 import * as types from "./types";
 
 export const setUser = (payload) => ({ type: types.SET_USER, payload });
-export const logout = () => ({ type: types.LOG_OUT });
+export const logout = () => {
+  localStorage.removeItem("token");
+  return { type: types.LOG_OUT };
+};
 
 export const registration = (email, password) => async () => {
   try {

@@ -17,4 +17,9 @@ export default styled.div`
     margin-left: auto;
     margin-right: 20px;
   }
+
+  .logout {
+    margin-left: auto;
+    margin-right: 20px;
+  }
 `;

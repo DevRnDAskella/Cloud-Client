@@ -5,7 +5,6 @@ export const postRegister = ({ email, password }) => {
 };
 
 export const postLogin = ({ email, password }) => {
-  debugger;
   return instance.post("auth/login", { email, password });
 };
 
